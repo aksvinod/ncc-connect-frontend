@@ -1,0 +1,71 @@
+.announcement-container{
+
+    width:90%;
+
+    margin:auto;
+
+    padding:30px;
+
+}
+
+.announcement-container h2{
+
+    text-align:center;
+
+    color:#2E5D34;
+
+    margin-bottom:30px;
+
+}
+
+.announcement-card{
+
+    background:white;
+
+    padding:25px;
+
+    margin-bottom:25px;
+
+    border-left:8px solid #2E5D34;
+
+    border-radius:12px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,0.15);
+
+    transition:.3s;
+
+}
+
+.announcement-card:hover{
+
+    transform:translateY(-5px);
+
+}
+
+.announcement-card h3{
+
+    color:#2E5D34;
+
+    margin-bottom:10px;
+
+}
+
+.date{
+
+    color:#777;
+
+    margin-bottom:15px;
+
+}
+
+.announcement-card span{
+
+    display:block;
+
+    margin-top:20px;
+
+    font-weight:bold;
+
+    color:#2E5D34;
+
+}

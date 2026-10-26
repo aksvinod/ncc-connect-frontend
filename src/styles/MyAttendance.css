@@ -1,0 +1,90 @@
+.attendance-page{
+
+    width:90%;
+    margin:auto;
+    padding:30px;
+
+}
+
+.attendance-page h1{
+
+    text-align:center;
+    color:#1B5E20;
+    margin-bottom:30px;
+
+}
+
+.attendance-cards{
+
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:25px;
+
+}
+
+.attendance-card{
+
+    background:white;
+    border-radius:15px;
+    padding:25px;
+    text-align:center;
+    box-shadow:0 5px 15px rgba(0,0,0,.15);
+
+}
+
+.attendance-card h2{
+
+    color:#1B5E20;
+    font-size:40px;
+
+}
+
+.progress-section{
+
+    margin-top:40px;
+
+}
+
+.progress-bar{
+
+    width:100%;
+    height:28px;
+    background:#ddd;
+    border-radius:30px;
+    overflow:hidden;
+
+}
+
+.progress-fill{
+
+    height:100%;
+    background:#1B5E20;
+
+}
+
+.progress-section h3{
+
+    text-align:center;
+    margin-top:15px;
+    color:#1B5E20;
+
+}
+
+.eligibility{
+
+    margin-top:40px;
+    text-align:center;
+
+}
+
+.eligible{
+
+    color:green;
+
+}
+
+.not-eligible{
+
+    color:red;
+
+}

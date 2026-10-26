@@ -1,0 +1,63 @@
+.officer-dashboard{
+
+    width:90%;
+    margin:auto;
+    padding:30px;
+    text-align:center;
+
+}
+
+.officer-dashboard h1{
+
+    color:#1B5E20;
+    margin-bottom:10px;
+
+}
+
+.officer-dashboard p{
+
+    color:#555;
+    margin-bottom:35px;
+
+}
+
+.officer-grid{
+
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:25px;
+
+}
+
+.officer-card{
+
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,.15);
+    transition:.3s;
+    cursor:pointer;
+    font-size:45px;
+
+}
+
+.officer-card:hover{
+
+    transform:translateY(-8px);
+    background:#E8F5E9;
+
+}
+
+.officer-card h3{
+
+    color:#1B5E20;
+    margin-top:15px;
+
+}
+
+.officer-card p{
+
+    color:#666;
+    margin-top:10px;
+
+}

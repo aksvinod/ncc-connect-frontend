@@ -1,0 +1,102 @@
+.certificate-container {
+    width: 90%;
+    margin: auto;
+    padding: 30px;
+}
+
+.certificate-container h1 {
+    text-align: center;
+    color: #1B5E20;
+    margin-bottom: 10px;
+}
+
+.certificate-subtitle {
+    text-align: center;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.success-message {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 25px;
+    background: #E8F5E9;
+    color: #1B5E20;
+    border: 1px solid #81C784;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.certificate-search {
+    margin-bottom: 25px;
+}
+
+.certificate-search input {
+    width: 100%;
+    padding: 14px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.certificate-table-container {
+    overflow-x: auto;
+}
+
+.certificate-table-container table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+.certificate-table-container th {
+    background: #1B5E20;
+    color: white;
+    padding: 15px;
+}
+
+.certificate-table-container td {
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.certificate-table-container tr:hover {
+    background: #E8F5E9;
+}
+
+.certificate-table-container select,
+.certificate-table-container input {
+    padding: 9px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+}
+
+.update-btn {
+    padding: 10px 18px;
+    background: #1B5E20;
+    color: white;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.update-btn:hover {
+    background: #145214;
+}
+
+@media (max-width: 768px) {
+    .certificate-container {
+        width: 95%;
+        padding: 15px;
+    }
+
+    .certificate-table-container th,
+    .certificate-table-container td {
+        padding: 10px;
+        font-size: 14px;
+    }
+}

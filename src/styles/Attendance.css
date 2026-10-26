@@ -1,0 +1,167 @@
+.attendance-container{
+
+    width:90%;
+
+    margin:auto;
+
+    padding:30px;
+
+}
+
+.attendance-container h2{
+
+    text-align:center;
+
+    color:#2E5D34;
+
+    margin-bottom:30px;
+
+}
+
+.attendance-cards{
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:20px;
+
+    margin-bottom:40px;
+
+}
+
+.attendance-card{
+
+    background:white;
+
+    border-radius:15px;
+
+    padding:25px;
+
+    text-align:center;
+
+    box-shadow:0 5px 15px rgba(0,0,0,0.15);
+
+    transition:0.3s;
+
+}
+
+.attendance-card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.attendance-card h3{
+
+    font-size:40px;
+
+}
+
+.attendance-card h4{
+
+    color:#2E5D34;
+
+    margin:15px 0;
+
+}
+
+.attendance-card p{
+
+    font-size:28px;
+
+    font-weight:bold;
+
+}
+
+.attendance-table{
+
+    background:white;
+
+    padding:25px;
+
+    border-radius:15px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,0.15);
+
+}
+
+.attendance-table h3{
+
+    margin-bottom:20px;
+
+    color:#2E5D34;
+
+}
+
+table{
+
+    width:100%;
+
+    border-collapse:collapse;
+
+}
+
+table th{
+
+    background:#2E5D34;
+
+    color:white;
+
+    padding:12px;
+
+}
+
+table td{
+
+    padding:12px;
+
+    text-align:center;
+
+    border-bottom:1px solid #ddd;
+
+}
+
+.present{
+
+    color:green;
+
+    font-weight:bold;
+
+}
+
+.absent{
+
+    color:red;
+
+    font-weight:bold;
+
+}
+
+.download-btn{
+
+    margin-top:30px;
+
+    width:100%;
+
+    padding:15px;
+
+    background:#2E5D34;
+
+    color:white;
+
+    border:none;
+
+    border-radius:10px;
+
+    font-size:18px;
+
+    cursor:pointer;
+
+}
+
+.download-btn:hover{
+
+    background:#1f4225;
+
+}

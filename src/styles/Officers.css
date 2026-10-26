@@ -1,0 +1,79 @@
+.officers-container{
+
+    width:90%;
+    margin:auto;
+    padding:30px;
+    text-align:center;
+
+}
+
+.officers-container h1{
+
+    color:#1B5E20;
+    margin-bottom:10px;
+
+}
+
+.officers-container p{
+
+    color:#666;
+    margin-bottom:30px;
+
+}
+
+.officers-grid{
+
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:30px;
+
+}
+
+.officer-card{
+
+    background:white;
+    border-radius:15px;
+    padding:25px;
+    box-shadow:0 5px 15px rgba(0,0,0,.15);
+    transition:.3s;
+
+}
+
+.officer-card:hover{
+
+    transform:translateY(-8px);
+    background:#E8F5E9;
+
+}
+
+.officer-card img{
+
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    object-fit:cover;
+    border:5px solid #1B5E20;
+    margin-bottom:20px;
+
+}
+
+.officer-card h2{
+
+    color:#1B5E20;
+    margin-bottom:10px;
+
+}
+
+.officer-card h4{
+
+    color:#444;
+    margin-bottom:15px;
+
+}
+
+.officer-card p{
+
+    margin:8px 0;
+    color:#555;
+
+}

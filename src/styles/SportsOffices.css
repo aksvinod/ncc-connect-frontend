@@ -1,0 +1,215 @@
+
+.sports-offices-page {
+  min-height: 100vh;
+  padding: 32px;
+  background: #f4f7fb;
+  color: #172033;
+  font-family: Arial, sans-serif;
+}
+
+.offices-header {
+  padding: 36px;
+  border-radius: 20px;
+  background: linear-gradient(120deg, #102e59, #1768a5);
+  color: white;
+  margin-bottom: 28px;
+}
+
+.offices-eyebrow {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #b9ddff;
+}
+
+.offices-header h1 {
+  margin: 12px 0;
+  font-size: 32px;
+}
+
+.offices-header p:last-child {
+  max-width: 650px;
+  line-height: 1.7;
+  color: #e4efff;
+}
+
+.offices-search-section {
+  display: flex;
+  gap: 14px;
+  margin-bottom: 30px;
+}
+
+.offices-search-section input,
+.offices-search-section select {
+  min-height: 48px;
+  padding: 12px 15px;
+  border: 1px solid #d9e1ed;
+  border-radius: 10px;
+  background: white;
+  font-size: 14px;
+}
+
+.offices-search-section input {
+  flex: 1;
+  min-width: 0;
+}
+
+.offices-search-section select {
+  min-width: 160px;
+}
+
+.offices-results-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.offices-results-heading h2 {
+  font-size: 22px;
+}
+
+.offices-results-heading span {
+  color: #64748b;
+  font-size: 14px;
+}
+
+.offices-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 22px;
+}
+
+.office-card {
+  display: flex;
+  gap: 18px;
+  padding: 24px;
+  background: white;
+  border: 1px solid #e3eaf3;
+  border-radius: 16px;
+  box-shadow: 0 5px 18px rgba(15, 35, 65, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.office-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(15, 35, 65, 0.09);
+}
+
+.office-card-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 55px;
+  height: 55px;
+  border-radius: 14px;
+  background: #e8f2ff;
+  font-size: 27px;
+}
+
+.office-card-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.office-category {
+  color: #1768a5;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.office-card h3 {
+  margin: 9px 0 12px;
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+.office-location,
+.office-sport {
+  margin: 8px 0;
+  color: #64748b;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.office-sport strong {
+  color: #334155;
+}
+
+.office-map-button {
+  margin-top: 16px;
+  padding: 12px 16px;
+  border: none;
+  border-radius: 9px;
+  background: #1768a5;
+  color: white;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.office-map-button:hover {
+  background: #104b7b;
+}
+
+.offices-empty {
+  padding: 45px 20px;
+  border-radius: 14px;
+  background: white;
+  text-align: center;
+}
+
+.offices-empty p {
+  color: #64748b;
+}
+
+.offices-note {
+  margin-top: 28px;
+  color: #64748b;
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+@media (max-width: 800px) {
+  .offices-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .offices-header {
+    padding: 26px;
+  }
+
+  .offices-header h1 {
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 520px) {
+  .sports-offices-page {
+    padding: 16px;
+  }
+
+  .offices-search-section {
+    flex-direction: column;
+  }
+
+  .offices-search-section select {
+    width: 100%;
+  }
+
+  .office-card {
+    padding: 17px;
+    gap: 12px;
+  }
+
+  .office-card-icon {
+    width: 42px;
+    height: 42px;
+    font-size: 22px;
+  }
+}

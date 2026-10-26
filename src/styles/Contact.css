@@ -1,0 +1,39 @@
+.contact-container{
+
+    width:85%;
+    margin:auto;
+    padding:30px;
+    text-align:center;
+
+}
+
+.contact-container h1{
+
+    color:#1B5E20;
+    margin-bottom:30px;
+
+}
+
+.contact-card{
+
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    margin-bottom:25px;
+    box-shadow:0 5px 15px rgba(0,0,0,.15);
+
+}
+
+.contact-card h2{
+
+    color:#1B5E20;
+    margin-bottom:20px;
+
+}
+
+.contact-card p{
+
+    font-size:18px;
+    margin:12px 0;
+
+}

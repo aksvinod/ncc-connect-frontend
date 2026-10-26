@@ -1,0 +1,295 @@
+.events-container{
+
+    width:95%;
+
+    margin:auto;
+
+    padding:30px;
+
+    text-align:center;
+
+}
+
+.events-container h1{
+
+    color:#1B5E20;
+
+    margin-bottom:30px;
+
+}
+
+/* ===========================
+   Calendar
+=========================== */
+
+.react-calendar{
+
+    width:800px;
+
+    max-width:100%;
+
+    background:white;
+
+    border:none;
+
+    border-radius:15px;
+
+    padding:20px;
+
+    margin:auto;
+
+    box-shadow:0 5px 20px rgba(0,0,0,.15);
+
+}
+
+.react-calendar__navigation{
+
+    margin-bottom:20px;
+
+}
+
+.react-calendar__navigation button{
+
+    font-size:22px;
+
+    color:#1B5E20;
+
+    background:none;
+
+    border:none;
+
+    font-weight:bold;
+
+    cursor:pointer;
+
+}
+
+.react-calendar__navigation button:hover{
+
+    color:#0d4f18;
+
+}
+
+.react-calendar__navigation__label{
+
+    font-size:24px;
+
+    font-weight:bold;
+
+}
+
+.react-calendar__month-view__weekdays{
+
+    font-size:16px;
+
+    color:#1B5E20;
+
+    font-weight:bold;
+
+    text-transform:none;
+
+}
+
+.react-calendar__tile{
+
+    height:80px;
+
+    font-size:18px;
+
+    border-radius:10px;
+
+}
+
+.react-calendar__tile:hover{
+
+    background:#E8F5E9;
+
+}
+
+.react-calendar__tile--active{
+
+    background:#1B5E20 !important;
+
+    color:white;
+
+}
+
+/* ===========================
+   Selected Date
+=========================== */
+
+.selected-date{
+
+    margin-top:30px;
+
+    background:white;
+
+    padding:20px;
+
+    border-radius:12px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.15);
+
+}
+
+/* ===========================
+   Popup Overlay
+=========================== */
+
+.event-overlay{
+
+    position:fixed;
+
+    top:0;
+
+    left:0;
+
+    width:100%;
+
+    height:100%;
+
+    background:rgba(0,0,0,0.6);
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    z-index:1000;
+
+}
+/* ===========================
+   Popup Box
+=========================== */
+
+.event-modal{
+
+    width:500px;
+
+    max-height:85vh;
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:12px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:15px;
+
+    overflow-y:auto;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.3);
+
+}
+
+/* ===========================
+   Inputs
+=========================== */
+
+.event-modal input,
+
+.event-modal textarea{
+
+    width:100%;
+
+    padding:12px;
+
+    border-radius:8px;
+
+    border:1px solid #ccc;
+
+    font-size:16px;
+
+    box-sizing:border-box;
+
+}
+
+.event-modal input:focus,
+
+.event-modal textarea:focus{
+
+    border:2px solid #1B5E20;
+
+    outline:none;
+
+}
+
+/* ===========================
+   Save Button
+=========================== */
+
+.event-modal button{
+
+    background:#1B5E20;
+
+    color:white;
+
+    padding:12px;
+
+    border:none;
+
+    border-radius:8px;
+
+    font-size:17px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.event-modal button:hover{
+
+    background:#145214;
+
+}
+
+/* ===========================
+   Success Message
+=========================== */
+
+.success-message{
+
+    color:green;
+
+    font-size:18px;
+
+    font-weight:bold;
+
+    text-align:center;
+
+    background:#E8F5E9;
+
+    border:1px solid green;
+
+    border-radius:8px;
+
+    padding:10px;
+
+
+.success-message{
+
+    color:green;
+
+    font-size:18px;
+
+    font-weight:bold;
+
+    text-align:center;
+
+    background:#E8F5E9;
+
+    border:1px solid green;
+
+    border-radius:8px;
+
+    padding:10px;
+
+}
+
+}
